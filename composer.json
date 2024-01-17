@@ -1,0 +1,23 @@
+{
+    "name": "gdv/livedebug",
+    "description": "PHP Library to use with livedebug docker image",
+    "type": "library",
+    "require": {
+        "php": "8.1"
+    },
+    "require-dev": {
+        "kint-php/kint": "^5.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gdv\\Livedebug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guillaume de Vreese",
+            "email": "gdv@cache-rebuild.fr"
+        }
+    ]
+}
