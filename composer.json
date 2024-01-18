@@ -3,9 +3,7 @@
     "description": "PHP Library to use with livedebug docker image",
     "type": "library",
     "require": {
-        "php": "8.*"
-    },
-    "require-dev": {
+        "php": "8.*",
         "kint-php/kint": "^5.1"
     },
     "license": "MIT",
